@@ -1,0 +1,15 @@
+{
+  "options": {
+    "destPrefix": "assets/lib/"
+  },
+  "bootstrap":{
+    "files": {
+      "bootstrap" : "bootstrap/dist/*"
+    }
+  },
+  "jquery":{
+    "files":{
+      "jquery" : "jquery/dist/*"
+    }
+  }
+}

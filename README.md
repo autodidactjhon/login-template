@@ -1,0 +1,3 @@
+#Prerequisitos:
+
+- Instalar Ruby
