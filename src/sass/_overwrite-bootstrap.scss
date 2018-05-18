@@ -1,0 +1,25 @@
+.alert {
+	border: solid 2px;
+	border-radius: .75rem;
+}
+
+.alert-danger {
+	background-color: $alert-error-bg;
+	color: $alert-error-color;
+	border-color: $alert-error-border-color;
+}
+
+.alert-success {
+	background-color: $alert-success-bg;
+	color: $alert-success-color;
+	border-color: $alert-success-border-color;
+}
+
+.card {
+	border: none;
+	border-radius: 0;
+}
+
+.form-group {
+	position: relative;
+}

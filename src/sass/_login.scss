@@ -1,0 +1,69 @@
+.login {	
+	background: url('#{$img-path}form-body#{$img-ext}') no-repeat;
+	width: 406px;
+	height: 286px;
+	margin: 0 auto;
+
+	&__body {
+		//background-color: $login-body-bg;
+		padding: 20px 90px;
+	}
+
+	&__title {
+		text-align: center;
+		font-weight: bold;
+		color: $login-title-color;
+		margin-bottom: 20px;
+	}
+
+	&__icon {
+		position: absolute;
+		right: 0;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+
+		&--user {
+			background: url('#{$img-path}icon-user#{$img-ext}') no-repeat;
+			width: 15px;
+			height: 15px;
+			align-self: center;
+		}
+
+		&--pass {
+			background: url('#{$img-path}icon-pass#{$img-ext}') no-repeat;
+			width: 15px;
+			height: 15px;
+			align-self: center;
+
+		}
+	}
+
+	&__input {
+		padding-right: 40px;
+		box-shadow: $login-input-box-shadow;
+		border: 0;
+		background-color: $login-input-bg;
+
+		&:focus {
+			box-shadow: $login-input-box-shadow;
+			border: 0;
+			background-color: $login-input-bg;
+		}
+	}
+
+	&__btn {
+		display: block;
+		margin: 0 auto 10px;
+		padding: 10px 40px;
+		font-weight: bold;
+		box-shadow: inset 0 0 2px #FFF;
+	}
+
+	&__checkbox {
+		text-align: center;
+		margin: 0;
+		font-size: 0.9375rem;
+	}
+}

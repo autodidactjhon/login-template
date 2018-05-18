@@ -1,0 +1,31 @@
+.lt-alert {
+	height: 120px;
+
+	.lt-alert__alert {
+		position: relative;
+		margin: 25px 0;
+		display: none;
+
+		.lt-alert__text {
+			display: block;
+			text-align: right;
+			font-weight: bold;
+		}
+
+		.lt-alert__icon {
+			height: 16px;
+	    width: 16px;
+	    color: red;
+	    position: absolute;
+	    margin: 5px 0;		
+
+			&--error {
+				background: url('#{$img-path}icon-error#{$img-ext}') no-repeat;
+			}
+
+			&--success {
+				background: url('#{$img-path}icon-success#{$img-ext}') no-repeat;	
+			}
+		}
+	}
+}

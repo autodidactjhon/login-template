@@ -1,0 +1,23 @@
+
+//Colors
+$white:															#FFF;
+
+//Paths
+$img-path:													"../img/" !default;
+$img-ext:														".png" !default;
+
+//Alerts
+$alert-error-bg:										#F6626E !default;
+$alert-error-color:									#Af2A39 !default;
+$alert-error-border-color:					#E64555 !default;
+
+$alert-success-bg:									#2EEC9E !default;
+$alert-success-color:								#00A360 !default;
+$alert-success-border-color:				#0CE08F !default;
+
+//Login
+$login-body-bg:											$white !default;
+$login-title-color:									#959697 !default;
+
+$login-input-box-shadow:						inset 0px 1px 0px 0px #ccc !default;
+$login-input-bg:										#F7F4F6 !default;

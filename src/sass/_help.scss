@@ -1,0 +1,14 @@
+.help {
+
+	&__text {
+		color: $login-title-color;
+
+		&--underline {
+			text-decoration: underline;
+		}
+
+		&--size {
+			font-size: 0.875rem;
+		}
+	}
+}

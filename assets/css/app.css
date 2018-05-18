@@ -1,5 +1,129 @@
-.container {
-  border: solid 1px red;
+.alert {
+  border: solid 2px;
+  border-radius: .75rem;
+}
+
+.alert-danger {
+  background-color: #F6626E;
+  color: #Af2A39;
+  border-color: #E64555;
+}
+
+.alert-success {
+  background-color: #2EEC9E;
+  color: #00A360;
+  border-color: #0CE08F;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.form-group {
+  position: relative;
+}
+
+body {
+  background: url("../img/background.png") repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.lt-alert {
+  height: 120px;
+}
+.lt-alert .lt-alert__alert {
+  position: relative;
+  margin: 25px 0;
+  display: none;
+}
+.lt-alert .lt-alert__alert .lt-alert__text {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+.lt-alert .lt-alert__alert .lt-alert__icon {
+  height: 16px;
+  width: 16px;
+  color: red;
+  position: absolute;
+  margin: 5px 0;
+}
+.lt-alert .lt-alert__alert .lt-alert__icon--error {
+  background: url("../img/icon-error.png") no-repeat;
+}
+.lt-alert .lt-alert__alert .lt-alert__icon--success {
+  background: url("../img/icon-success.png") no-repeat;
+}
+
+.login {
+  background: url("../img/form-body.png") no-repeat;
+  width: 406px;
+  height: 286px;
+  margin: 0 auto;
+}
+.login__body {
+  padding: 20px 90px;
+}
+.login__title {
+  text-align: center;
+  font-weight: bold;
+  color: #959697;
+  margin-bottom: 20px;
+}
+.login__icon {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+}
+.login__icon--user {
+  background: url("../img/icon-user.png") no-repeat;
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.login__icon--pass {
+  background: url("../img/icon-pass.png") no-repeat;
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.login__input {
+  padding-right: 40px;
+  box-shadow: inset 0px 1px 0px 0px #ccc;
+  border: 0;
+  background-color: #F7F4F6;
+}
+.login__input:focus {
+  box-shadow: inset 0px 1px 0px 0px #ccc;
+  border: 0;
+  background-color: #F7F4F6;
+}
+.login__btn {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px 40px;
+  font-weight: bold;
+  box-shadow: inset 0 0 2px #FFF;
+}
+.login__checkbox {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.help__text {
+  color: #959697;
+}
+.help__text--underline {
+  text-decoration: underline;
+}
+.help__text--size {
+  font-size: 0.875rem;
 }
 
 /*# sourceMappingURL=app.css.map */
